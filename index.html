@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Car game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fabric.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    #myCanvas {
+        border-width: 10px;
+        background-color: white;
+        border-style: ridge;
+    }
+    
+    h1,
+    h4 {
+        color: white !important;
+    }
+</style>
+
+<body onload="add()">
+    <center>
+        <h1>Drive the car</h1>
+        <h4>
+            <b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY
+        </h4>
+        <canvas id="mycanvas" width="800" height="600"></canvas>
+
+    </center>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
